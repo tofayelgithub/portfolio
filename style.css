@@ -1,6 +1,7 @@
 body{
-    font-family: 'Pushster', cursive;
+    font-family: 'Lobster', cursive;
 font-family: 'Roboto Slab', serif;
+font-family: 'Secular One', sans-serif;
 margin: 0%;
 }
 h1{
@@ -26,7 +27,7 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient( orange , red);
+    background-image: linear-gradient( green ,green);
     padding: 10px 35px;
     color: white;
     font-weight: 700;
@@ -38,19 +39,15 @@ h2{
 }
 .link-button2{
     text-decoration: none;
-    background-image: linear-gradient( red , orange);
+    background-image: linear-gradient( green ,green );
     padding: 10px 25px;
     color: white;
     font-weight: 700;
     border-radius: 5%;
 }
-.dream-big{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
+
 .orange-color{
-    color: tomato;
+    color: green;
 }
 .ground-item{
     width: 40%;
@@ -68,4 +65,10 @@ h2{
 }
 .man{
      border-left:  10px solid;
+}
+body{ background-color: white;}
+dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
